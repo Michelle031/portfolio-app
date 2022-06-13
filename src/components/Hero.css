@@ -1,0 +1,31 @@
+.blob {
+    width: 300px;
+    height: 300px;
+    background: #040444;
+    position:absolute;
+    border-radius: 20px;
+    transform: rotate(17deg);
+    top: 25px;
+    left: -70px;
+    z-index: -1;
+}
+
+.blob2 {
+    width: 35%;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #FDB07A 65%, #FD62A4);
+    position: absolute;
+    border-radius: 80px;
+    transform: skew(-20deg);
+    right: -210px;
+    top: 0;
+    z-index: -1;
+}
+
+.gradient {
+    font-weight: 700;
+    background-image: linear-gradient(to right, #FDB07A , #FD62A4);
+    background-clip: text;
+    background-size: 100%;
+    color: transparent;
+  }
