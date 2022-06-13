@@ -13,6 +13,10 @@ const PDiv = styled.div`
   align-items: center;
   justify-content: center;
 
+  @media screen and (max-width: 960px) {
+    padding: 30px;
+  }
+
 
   h1 {
       color: white;

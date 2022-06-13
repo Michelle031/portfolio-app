@@ -38,6 +38,11 @@ const Contact = () => {
         emailjs.sendForm("service_ozez6d9","template_drt9kr8", e.target, "RE6k-LQYV0gExCULF").then(res => (
             console.log(res)
         )).catch(err => console.log(err));
+        setFullname('');
+        setEmail("");
+        setSubject("");
+        setMessage("");
+        console.log("hhjhbh");
         
     }
   return (
@@ -56,12 +61,12 @@ const Contact = () => {
         <Right>
             <form onSubmit={handleSubmit}>
                 <InputDiv>
-                    <input type="text" placeholder="Full Name*" name="fullName"  onChange={onchangeHandler}/>
-                    <input type="text" placeholder="Email address*" name="email" onChange={onchangeHandler} />
-                    <input type="text" placeholder="Subject" name="subject"  onChange={onchangeHandler}/>
+                    <input type="text" placeholder="Full Name*" name="fullName" value={fullName} onChange={onchangeHandler}/>
+                    <input type="text" placeholder="Email address*" name="email" value={email} onChange={onchangeHandler} />
+                    <input type="text" placeholder="Subject" name="subject" value={subject} onChange={onchangeHandler}/>
                 </InputDiv>
                 <TextDiv>
-                    <textarea rows="4" cols="50" name="message" onChange={onchangeHandler}></textarea>
+                    <textarea rows="4" cols="50" name="message" value={message} onChange={onchangeHandler}></textarea>
                 </TextDiv>
                 <Button type="submit">
                         Shoot

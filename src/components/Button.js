@@ -20,6 +20,9 @@ const Btn = styled.button`
     border: 2px solid ${({color})=>color ? color : "#fff"};
     transition: 0.6s ease-out;
   }
+  @media screen and (max-width: 960px) {
+    margin-right: 70px;
+  }
 `;
 
 function Button({

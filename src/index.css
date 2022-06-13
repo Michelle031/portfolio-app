@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 body {
-    overflow-x: hidden !important;
     background-color: #02013D;
     font-family: 'Ubuntu', sans-serif;
     max-width: 100vw !important;
     margin:0;
+}
+
+html, body {
+    overflow-x: hidden !important;
 }

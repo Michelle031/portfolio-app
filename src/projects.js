@@ -58,7 +58,7 @@ export const projects = [
     {
         name: "Rest Countries API Website",
         image: "./images/desktop-design-home-light.jpg",
-        desc: "Informtion about countries at your fingertips",
+        desc: "Information about countries at the click of a button",
         live_url : "https://michelle031.github.io/test-rest-countries-project/",
         code_url : "https://github.com/Michelle031/test-rest-countries-project.git",
         tools: ["CSS", "JavaScript", "React", "API"]

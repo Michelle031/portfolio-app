@@ -20,6 +20,7 @@ const NavDiv = styled.div`
    @media screen and (max-width: 960px) {
      justify-content: space-between;
      max-width: 100vw;
+     padding: 0 30px;
    }
 
    .nav__logo {
