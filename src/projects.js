@@ -35,7 +35,7 @@ export const projects = [
         name: "Instagram clone",
         image: "./images/instagram.png",
         desc: "An instagram clone with some of the functionalities",
-        live_url : "https://sanity-medium-build-psi.vercel.app/",
+        live_url : "https://nextjs-insta-clone.vercel.app/",
         code_url : "https://github.com/Michelle031/nextjs-insta-clone.git",
         tools: ["TailWindCSS","JavaScript", "React", "NextJs", "Sanity"]
     },
@@ -43,7 +43,7 @@ export const projects = [
         name: "Medium clone",
         image: "./images/medium.jpg",
         desc: "The medium blog clone",
-        live_url : "https://nextjs-insta-clone.vercel.app/",
+        live_url : "https://sanity-medium-build-psi.vercel.app/",
         code_url : "https://github.com/Michelle031/sanity-medium-build.git",
         tools: ["TailWindCSS","JavaScript", "React", "TypeScript", "NextJs", "Sanity"]
     },
