@@ -32,12 +32,36 @@ export const projects = [
         tools: ["HTML", "CSS", "JavaScript"]
     },
     {
+        name: "Instagram clone",
+        image: "./images/instagram.png",
+        desc: "An instagram clone with some of the functionalities",
+        live_url : "https://sanity-medium-build-psi.vercel.app/",
+        code_url : "https://github.com/Michelle031/nextjs-insta-clone.git",
+        tools: ["TailWindCSS","JavaScript", "React", "NextJs", "Sanity"]
+    },
+    {
+        name: "Medium clone",
+        image: "./images/medium.jpg",
+        desc: "The medium blog clone",
+        live_url : "https://nextjs-insta-clone.vercel.app/",
+        code_url : "https://github.com/Michelle031/sanity-medium-build.git",
+        tools: ["TailWindCSS","JavaScript", "React", "TypeScript", "NextJs", "Sanity"]
+    },
+    {
         name: "Microsoft Landing Page clone",
         image: "./images/microsoft.png",
         desc: "The microsoft landing page clone",
         live_url : "https://michelle031.github.io/microsoft-clone/",
         code_url : "https://github.com/Michelle031/microsoft-clone.git",
         tools: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        name: "Portfolio Website",
+        image: "./images/portfolio.png",
+        desc: "My Portfolio Website",
+        live_url : "https://michelleanne-portofolio.web.app",
+        code_url : "https://github.com/Michelle031/portfolio-app.git",
+        tools: ["CSS", "JavaScript", "React"]
     },
     {
         name: "React calculator app",

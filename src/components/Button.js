@@ -2,9 +2,9 @@ import React from 'react';
 import styled from "styled-components";
 
 const Btn = styled.button`
-    width:${({width})=>width ? width : ''};
-    height:${({height})=> height ? height : ''};
-    padding:${({padding})=>padding ? padding : ''};
+    width:${({width})=>width ? width : '120px'};
+    height:${({height})=> height ? height : '40px'};
+    padding:${({padding})=>padding ? padding : '5px 8px'};
     border-radius:${({radius})=>radius ? radius : '8px'};
     cursor:pointer;
     color:${({color})=>color ? color : "#fff"};

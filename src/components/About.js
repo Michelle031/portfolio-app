@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from "styled-components";
 import {FaHtml5, FaCss3Alt, FaJs, FaReact, FaSass} from "react-icons/fa";
-import {SiNextdotjs} from "react-icons/si"
+import {SiNextdotjs, SiTypescript, SiTailwindcss} from "react-icons/si"
 import Bullet from './Bullet';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 
 const Aboutdiv =  styled.div`
@@ -87,6 +88,8 @@ function About() {
             <FaSass />
             <FaReact />
             <SiNextdotjs />
+            <SiTailwindcss />
+            <SiTypescript />
         </div>
         <div className="about__tools">
             <p>Dev Tools: Git, Github, Gitlab, Visual Studio Code, Terminal </p>
@@ -103,6 +106,11 @@ function About() {
         I believe that with hardwork, creativity, dedication and discipline I can bring out the best in any project I work on.
             </p>
         </div>
+        <a href="/MyCv.pdf" download>
+            <Button background={"linear-gradient(to right, #FDB07A , #FD62A4)"} border={"2px solid #fff"}>
+                Download CV
+            </Button>
+        </a>
     </Aboutdiv>
   )
 }
