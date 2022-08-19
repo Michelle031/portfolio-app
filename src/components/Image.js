@@ -35,7 +35,7 @@ const Image = ({title, desc, img, live, code, tools}) => {
 export default Image;
 
 const Container = styled.section`
-    background: ${(props) => props.hover ? `linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(${props.img})` :`url(${props.img})`};
+    background: ${(props) => props.hover ? `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(${props.img})` :`url(${props.img})`};
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,7 +80,8 @@ const Details = styled.div`
         color: #fff;
     }
     p{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
+        color: #fff;
     }
 
     .tools {
@@ -95,6 +96,7 @@ const Details = styled.div`
             margin-right: 8px;
             margin-bottom: 8px;
             font-size: 9px;
+        
         }
     }
 `;

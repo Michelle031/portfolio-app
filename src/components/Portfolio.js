@@ -52,7 +52,7 @@ function Portfolio() {
         <p>These are some of the projects I have worked on</p>
         <div className="images">
             {projects.map((project) => (
-                <Image title={project.name} desc={project.desc} img={project.image} live={project.live_url} code={project.code_url} tools={project.tools}/>
+                <Image key={project.name} title={project.name} desc={project.desc} img={project.image} live={project.live_url} code={project.code_url} tools={project.tools}/>
             )
             )}
         </div>

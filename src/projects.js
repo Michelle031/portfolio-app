@@ -16,20 +16,20 @@ export const projects = [
         tools: ["HTML", "CSS", "JavaScript"]
     },
     {
-        name: "Hangman Game",
-        image: "./images/hangman-s-knot-white-rope-isolated-black-background_23-2148548227.jpg",
-        desc: "A simple hangman game",
-        live_url : "https://michelle031.github.io/hangman-js/",
-        code_url : "https://github.com/Michelle031/hangman-js.git",
-        tools: ["HTML", "CSS", "JavaScript"]
+        name: "Google clone",
+        image: "./images/google.png",
+        desc: "A clone of the google search engine using Google API ",
+        live_url : "https://next-google-clone-snowy.vercel.app/",
+        code_url : "https://github.com/Michelle031/next-google-clone",
+        tools: ["TailWindCSS","JavaScript", "React", "NextJs"]
     },
     {
-        name: "Huddle Landing Page",
-        image: "./images/desktop-preview.jpg",
-        desc: "Build The Community Your Fans Will Love",
-        live_url : "https://michelle031.github.io/huddle-website/",
-        code_url : "https://github.com/Michelle031/huddle-website.git",
-        tools: ["HTML", "CSS", "JavaScript"]
+        name: "Hulu clone",
+        image: "./images/hulu.jpg",
+        desc: "A clone of the hulu website using TMDB API ",
+        live_url : "https://next-hulu-clone-two.vercel.app/",
+        code_url : "https://github.com/Michelle031/next-hulu-clone",
+        tools: ["TailWindCSS","JavaScript", "React", "NextJs"]
     },
     {
         name: "Instagram clone",
@@ -37,7 +37,7 @@ export const projects = [
         desc: "An instagram clone with some of the functionalities",
         live_url : "https://nextjs-insta-clone.vercel.app/",
         code_url : "https://github.com/Michelle031/nextjs-insta-clone.git",
-        tools: ["TailWindCSS","JavaScript", "React", "NextJs", "Sanity"]
+        tools: ["TailWindCSS","JavaScript", "React", "NextJs"]
     },
     {
         name: "Medium clone",
@@ -112,14 +112,6 @@ export const projects = [
         tools: ["HTML", "CSS","Sass" , "JavaScript"]
     },
     {
-        name: "Stopwatch",
-        image: "./images/stop.png",
-        desc: "Simple stopwatch",
-        live_url : "https://michelle031.github.io/Stopwatch/",
-        code_url : "https://github.com/Michelle031/Stopwatch.git",
-        tools: ["HTML", "CSS", "JavaScript"]
-    },
-    {
         name: "Tetris Game",
         image: "./images/1138720.png",
         desc: "Let's play tetris",
@@ -127,20 +119,4 @@ export const projects = [
         code_url : "https://github.com/Michelle031/tetris-game.git",
         tools: ["HTML", "CSS", "JavaScript"]
     },
-    {
-        name: "Tesla Website Clone",
-        image: "./images/tesla.jpg",
-        desc: "A clone of the tesla website",
-        live_url : "https://michelle031.github.io/tesla-clone/",
-        code_url : "https://github.com/Michelle031/tesla-clone.git",
-        tools: ["CSS", "JavaScript", "React", "Redux"]
-    },
-    {
-        name: "Tic Tac Toe",
-        image: "./images/download.png",
-        desc: "X's and O's",
-        live_url : "https://michelle031.github.io/tic-tac-toe/",
-        code_url : "https://github.com/Michelle031/tic-tac-toe.git",
-        tools: ["HTML", "CSS", "JavaScript"]
-    }
 ]

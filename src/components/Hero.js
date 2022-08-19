@@ -25,6 +25,7 @@ const Section = styled.div`
       flex-direction: column;
         width: 100%;
         height: 100%;
+        padding: 30px;
       }
       
       p, h3{

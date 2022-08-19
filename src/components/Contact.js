@@ -89,6 +89,7 @@ const Container = styled.div`
     color: #fff;
     @media screen and (max-width: 960px) {
         height: auto;
+        padding: 30px;
     }
 `;
 const White = styled.div`
