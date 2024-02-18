@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "mba-angel-dev",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
