@@ -8,37 +8,15 @@ const Image = ({ title, desc, img, live, code, tools }) => {
   const handleOn = () => setHover(true);
   const handleOut = () => setHover(false);
   return (
-    <Container
-      hover={hover}
-      onMouseOver={handleOn}
-      onMouseOut={handleOut}
-      img={img}
-    >
-      {hover && (
-        <Disappear>
-          <div className="links">
-            <a href={live}>
-              <IoIosGlobe
-                style={{
-                  color: "#fff",
-                  width: "30px",
-                  height: "30px",
-                  marginRight: "10px",
-                }}
-              />
-            </a>
-            <a href={code}>
-              <AiFillGithub
-                style={{
-                  color: "#fff",
-                  width: "30px",
-                  height: "30px",
-                  marginRight: "10px",
-                }}
-              />
-            </a>
-          </div>
-          <Details>
+    <Container hover={hover} onMouseOver={handleOn} onMouseOut={handleOut} img={img} >
+        
+        {hover && 
+               (<Disappear>
+            <div className="links">
+            <a href={live} target="_blank"><IoIosGlobe style={{color : "#fff", width:"30px", height:"30px", marginRight:"10px"}}/></a>
+            <a href={code} target="_blank"><AiFillGithub style={{color : "#fff", width:"30px", height:"30px", marginRight:"10px"}}/></a>
+        </div>
+            <Details>
             <h2>{title}</h2>
             <p className="desc">{desc}</p>
             <div className="tools">
