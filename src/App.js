@@ -6,7 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import { BiHomeAlt } from "react-icons/bi";
 import { BsFiles } from "react-icons/bs";
-import { MdAccountCircle, MdEmail } from "react-icons/md";
+import { MdAccountCircle} from "react-icons/md";
 import { Link } from "react-scroll";
 
 function App() {

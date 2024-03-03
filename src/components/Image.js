@@ -13,8 +13,8 @@ const Image = ({ title, desc, img, live, code, tools }) => {
         {hover && 
                (<Disappear>
             <div className="links">
-            <a href={live} target="_blank"><IoIosGlobe style={{color : "#fff", width:"30px", height:"30px", marginRight:"10px"}}/></a>
-            <a href={code} target="_blank"><AiFillGithub style={{color : "#fff", width:"30px", height:"30px", marginRight:"10px"}}/></a>
+            <a href={live} target="_blank" rel="noreferrer"><IoIosGlobe style={{color : "#fff", width:"30px", height:"30px", marginRight:"10px"}}/></a>
+            <a href={code} target="_blank" rel="noreferrer"><AiFillGithub style={{color : "#fff", width:"30px", height:"30px", marginRight:"10px"}}/></a>
         </div>
             <Details>
             <h2>{title}</h2>
